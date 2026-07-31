@@ -8,3 +8,5 @@ cout<<sub(10,20)<<endl; // if bothe arg are passed it takes user's value
 cout<<sub(10);  // if no arg is passed then then daf arg is used
     return 0;
 }
+//default arg before non def rag throws an error
+// def arg must start from rightmost of parameter list
