@@ -50,6 +50,7 @@ public:
 };
 
 int main() {
+    cout<<"enter queue size"<<endl;
     int n;
     cin >> n;
     Queue q(n);   // proper initialization
