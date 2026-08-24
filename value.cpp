@@ -3,15 +3,15 @@ using namespace std;
 class Student{
   public:
   int m;
-  void change(Student s){
-      s.m=55;
-      cout<<"changed marks: "<<s.m<<endl;
+  Student swapvalues(Student &s,Student &t){
+   swap(s.m,t.m);
+   return s;
   }
 };
 int main() {
- Student s;
- s.m=100;
- s.change(s);
- cout<<"value after func calling = "<<s.m;
+ Student s,t,z;
+ s.m=100;t.m=89;
+ z=z.swapvalues(s,t);
+ cout<<z.m;
  return 0;
 }
